@@ -31,7 +31,7 @@ class MainViewController: UIViewController, UITableViewDelegate {
     // MARK: --
     // MARK: - Methods
     func createUI() {
-        navigationController!.navigationBar.barTintColor = UIColor(red: 153/255.0, green: 0, blue: 77/255.0, alpha: 1)
+        navigationController!.navigationBar.barTintColor = UIColor(red: 111/255.0, green: 249/255.0, blue: 193/255.0, alpha: 1)
         let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 40))
         titleLabel.font = UIFont.boldSystemFontOfSize(20.0)
         titleLabel.backgroundColor = UIColor.clearColor()
@@ -40,7 +40,7 @@ class MainViewController: UIViewController, UITableViewDelegate {
         titleLabel.text = "CALayer_Demo"
         navigationItem.titleView = titleLabel
         
-        self.dataArray = ["CALayer", "CAScrollLayer", "CATextLayer", "to be continue!", "..."]
+        self.dataArray = ["CALayer", "CAScrollLayer", "CATextLayer", "AVPlayerLayer", "EmitterLayer", "..."]
     }
     // MARK: --
 
@@ -71,7 +71,7 @@ class MainViewController: UIViewController, UITableViewDelegate {
         
         var pushVC: UIViewController?
         
-        if indexPath.row < 3 {
+        if indexPath.row < 5 {
         
         switch indexPath.row {
         case 0:
@@ -80,6 +80,10 @@ class MainViewController: UIViewController, UITableViewDelegate {
             pushVC = storyboard!.instantiateViewControllerWithIdentifier("ScrollLayer")
         case 2:
             pushVC = storyboard!.instantiateViewControllerWithIdentifier("CATextLayer")
+        case 3:
+            pushVC = storyboard!.instantiateViewControllerWithIdentifier("AVPlayerLayer")
+        case 4:
+            pushVC = storyboard!.instantiateViewControllerWithIdentifier("CAEmitterLayer")
         default:
             break
         }

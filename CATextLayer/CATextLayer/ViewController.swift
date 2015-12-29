@@ -29,6 +29,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.view.backgroundColor = UIColor.whiteColor()
         setUpLayer()
+        
+//        print(UIFont.familyNames())
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,7 +51,7 @@ class ViewController: UIViewController {
         textLayer!.font = CTFontCreateWithName(fontName, 24, nil)
         fontSize = 20
         textLayer!.fontSize = fontSize!
-        textLayer!.foregroundColor = UIColor.purpleColor().CGColor
+        textLayer!.foregroundColor = UIColor(red: 2/255.0, green: 130/255.0, blue: 85/255.0, alpha: 1).CGColor
         align = kCAAlignmentLeft
         textLayer!.alignmentMode = align!
         textLayer!.contentsScale = UIScreen.mainScreen().scale
@@ -89,10 +91,16 @@ class ViewController: UIViewController {
         switch (sender.selectedSegmentIndex) {
         case 0:
             fName = "Noteworthy-Light"
-            break
         case 1:
             fName = "Helvetica"
-            break
+        case 2:
+            fName = "Futura-Medium"
+        case 3:
+            fName = "IowanOldStyle-Roman"
+        case 4:
+            fName = "Optima-Regular"
+        case 5:
+            fName = "Papyrus"
         default:
             break
         }
