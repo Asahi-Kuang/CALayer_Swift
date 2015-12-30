@@ -23,7 +23,6 @@
 		419DFC611C3148EF000C08F8 /* star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 419DFC601C3148EF000C08F8 /* star.jpg */; };
 		419DFC631C314AF9000C08F8 /* ScrollLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DFC621C314AF9000C08F8 /* ScrollLayerViewController.swift */; };
 		419DFC651C314C1E000C08F8 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DFC641C314C1E000C08F8 /* ScrollView.swift */; };
-		41A8AC5A1C328BC300FD8B0D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41A8AC591C328BC300FD8B0D /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +65,6 @@
 		419DFC601C3148EF000C08F8 /* star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = star.jpg; sourceTree = "<group>"; };
 		419DFC621C314AF9000C08F8 /* ScrollLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollLayerViewController.swift; sourceTree = "<group>"; };
 		419DFC641C314C1E000C08F8 /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
-		41A8AC591C328BC300FD8B0D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +120,6 @@
 				419DFC591C313922000C08F8 /* Controllers */,
 				419DFC2B1C30FA51000C08F8 /* Main.storyboard */,
 				4110E3511C3253FD0082EDD6 /* mp.mp4 */,
-				41A8AC591C328BC300FD8B0D /* 1.jpg */,
 				419DFC601C3148EF000C08F8 /* star.jpg */,
 				419DFC2E1C30FA51000C08F8 /* Assets.xcassets */,
 				419DFC301C30FA51000C08F8 /* LaunchScreen.storyboard */,
@@ -278,7 +275,6 @@
 				4110E3521C3253FD0082EDD6 /* mp.mp4 in Resources */,
 				419DFC321C30FA51000C08F8 /* LaunchScreen.storyboard in Resources */,
 				419DFC2F1C30FA51000C08F8 /* Assets.xcassets in Resources */,
-				41A8AC5A1C328BC300FD8B0D /* 1.jpg in Resources */,
 				419DFC611C3148EF000C08F8 /* star.jpg in Resources */,
 				419DFC2D1C30FA51000C08F8 /* Main.storyboard in Resources */,
 			);
@@ -457,6 +453,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asahi.CATextLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -468,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asahi.CATextLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

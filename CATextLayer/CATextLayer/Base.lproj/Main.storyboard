@@ -560,7 +560,7 @@
                                     <constraint firstAttribute="height" constant="300" id="528-Gp-ERJ"/>
                                 </constraints>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="8Hr-m2-vUi" appends="YES" id="tyJ-ak-ClO"/>
+                                    <outletCollection property="gestureRecognizers" destination="FgY-zo-ksB" appends="YES" id="trn-V2-gRb"/>
                                 </connections>
                             </view>
                         </subviews>
@@ -578,11 +578,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Q0-rp-hnf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="8Hr-m2-vUi">
+                <panGestureRecognizer minimumNumberOfTouches="1" id="FgY-zo-ksB">
                     <connections>
-                        <action selector="tapGes:" destination="KEI-KX-ET5" id="puS-4b-4XI"/>
+                        <action selector="panGesture:" destination="KEI-KX-ET5" id="A1Y-8a-uZU"/>
                     </connections>
-                </tapGestureRecognizer>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1537.5" y="1145.5"/>
         </scene>

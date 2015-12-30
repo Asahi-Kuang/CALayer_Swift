@@ -37,9 +37,9 @@ class EmitterLayerViewController: UIViewController {
     // MARK: - Methods
     func setUpLayer() {
         emitterLayer.frame = viewForLayer.bounds
-        emitterLayer.backgroundColor = UIColor.whiteColor().CGColor
-//        emitterLayer.masksToBounds = true
-        emitterLayer.renderMode = kCAEmitterLayerCircle
+        emitterLayer.backgroundColor = UIColor.blackColor().CGColor
+        emitterLayer.masksToBounds = true
+        emitterLayer.renderMode = kCAEmitterLayerAdditive
         emitterLayer.seed = UInt32(NSDate().timeIntervalSince1970)
         emitterLayer.drawsAsynchronously = true
         
@@ -52,34 +52,34 @@ class EmitterLayerViewController: UIViewController {
     
     func setEmitterCell() {
         emitterCell.contents = UIImage(named: "smallStar")?.CGImage
-        emitterCell.velocity = 20.0
+        emitterCell.velocity = 50.0
         emitterCell.velocityRange = 500.0
         
-        emitterCell.color = UIColor.redColor().CGColor
+        emitterCell.color = UIColor.blackColor().CGColor
         emitterCell.scale = 1.0
-        emitterCell.redRange = 0.2
-        emitterCell.greenRange = 0.5
-        emitterCell.blueRange = 0.4
-        emitterCell.alphaRange = -0.5
+        emitterCell.redRange = 1.0
+        emitterCell.greenRange = 1.0
+        emitterCell.blueRange = 1.0
+        emitterCell.alphaRange = 0.0
         emitterCell.redSpeed = 0.5
         emitterCell.greenSpeed = 0.5
         emitterCell.blueSpeed = 0.5
         emitterCell.alphaSpeed = -0.5
         
         let zeroDegreesInRadians = degressToRadians(0.0)
-        emitterCell.spin = degressToRadians(360.0)
+        emitterCell.spin = zeroDegreesInRadians
         emitterCell.spinRange = zeroDegreesInRadians
         emitterCell.emissionRange = degressToRadians(360.0)
         
-        emitterCell.lifetime = 5.0
-        emitterCell.birthRate = 50.0
-        emitterCell.xAcceleration = 0.0
+        emitterCell.lifetime = 1.0
+        emitterCell.birthRate = 250.0
+        emitterCell.xAcceleration = 200.0
         emitterCell.yAcceleration = 500.0
         
     }
     
     func degressToRadians(degrees: Double) -> CGFloat {
-        return CGFloat(degrees * M_PI / 360.0)
+        return CGFloat(degrees * M_PI / 180.0)
     }
     
     func setEmitterPosition(x: CGFloat, y: CGFloat) {
@@ -93,15 +93,15 @@ class EmitterLayerViewController: UIViewController {
     }
     
     // MARK: --
-
-    @IBAction func tapGes(sender: UITapGestureRecognizer) {
-//        var touches = UITouch()
-//        var point = touches.locationInView(view)
-//        print(point)
+    
+    @IBAction func panGesture(sender: UIPanGestureRecognizer) {
+        let x: CGFloat = sender.locationInView(viewForLayer).x
+        let y: CGFloat = sender.locationInView(viewForLayer).y
+        setEmitterPosition(x, y: y)
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        print(touches.first?.locationInView(viewForLayer))
+        print((touches.first?.locationInView(viewForLayer))!)
         let x: CGFloat = touches.first!.locationInView(viewForLayer).x
         let y: CGFloat = touches.first!.locationInView(viewForLayer).y
         
