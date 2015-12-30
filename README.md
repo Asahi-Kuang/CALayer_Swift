@@ -38,7 +38,7 @@
 
 ####CATextLayer:
 
-![pic url](http://a1.qpic.cn/psb?/V106iJhq3r5pvo/cYfsvNNv.4bira.GehRQ29CsQy2kCBnQnbuNR2fmBAk!/b/dGUBAAAAAAAA&bo=1QFIA9UBSAMCMhY!&rf=viewer_4)
+![pic url](http://a1.qpic.cn/psb?/V106iJhq3r5pvo/eN6UwITG2aWt5ci2SKVt4ipQssUySt*4qDoIQVOKrj4!/b/dFwBAAAAAAAA&bo=1AFCA9QBQgMCUHQ!&rf=viewer_4)
 
 ####AVPlayerLayer:
 
