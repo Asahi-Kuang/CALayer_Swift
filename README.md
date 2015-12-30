@@ -20,6 +20,9 @@
 
 7. ***Main.storyboard*** :storyboard搭建UI(User Interface)。约束的使用。
 
+8. ***AVPlayerViewController.swift*** :视频播放layer处理实现。
+
+9. ***EmitterLayerViewController.swift*** :发散图层emitterLayer处理实现。
 
 ###效果图:
 
@@ -37,6 +40,13 @@
 
 ![pic url](http://a1.qpic.cn/psb?/V106iJhq3r5pvo/cYfsvNNv.4bira.GehRQ29CsQy2kCBnQnbuNR2fmBAk!/b/dGUBAAAAAAAA&bo=1QFIA9UBSAMCMhY!&rf=viewer_4)
 
+####AVPlayerLayer:
+
+![pic url](http://a2.qpic.cn/psb?/V106iJhq3r5pvo/KALcxkKehGFGE9Jas3pRfqayM4kr2PVeEX3pMxYsSbk!/b/dF0BAAAAAAAA&bo=0wFFA9MBRQMCMhY!&rf=viewer_4)
+
+####EmitterLayer:
+
+![pic url](http://a1.qpic.cn/psb?/V106iJhq3r5pvo/1jJ*W6b6p1Qh83TVFnbQ9IqystTPRCYc99QvO9n8fYU!/b/dFwBAAAAAAAA&bo=0gFFA9IBRQMCHjo!&rf=viewer_4)
 
 ####代码预览:
 
