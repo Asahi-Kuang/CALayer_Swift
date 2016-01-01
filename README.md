@@ -24,6 +24,8 @@
 
 9. ***EmitterLayerViewController.swift*** :发散图层emitterLayer处理实现。
 
+10. **GradientLayerViewController.swift** :颜色渐变图层(Layer)处理实现。
+
 ###效果图:
 
 ####CALayer:
@@ -47,6 +49,10 @@
 ####EmitterLayer:
 
 ![pic url](http://a1.qpic.cn/psb?/V106iJhq3r5pvo/1jJ*W6b6p1Qh83TVFnbQ9IqystTPRCYc99QvO9n8fYU!/b/dFwBAAAAAAAA&bo=0gFFA9IBRQMCHjo!&rf=viewer_4)
+
+####GradientLayer:
+
+![pic url](http://a3.qpic.cn/psb?/V106iJhq3r5pvo/jW6j7dDFysJqzSx1rRKyYl08QMAUT.Il0Rhof0itrtc!/b/dFsBAAAAAAAA&bo=0wFFA9MBRQMCKAw!&rf=viewer_4)
 
 ####代码预览:
 

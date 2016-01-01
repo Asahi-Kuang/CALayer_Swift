@@ -23,6 +23,7 @@
 		419DFC611C3148EF000C08F8 /* star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 419DFC601C3148EF000C08F8 /* star.jpg */; };
 		419DFC631C314AF9000C08F8 /* ScrollLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DFC621C314AF9000C08F8 /* ScrollLayerViewController.swift */; };
 		419DFC651C314C1E000C08F8 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DFC641C314C1E000C08F8 /* ScrollView.swift */; };
+		41C330321C368A1C001CE20B /* GradientLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C330311C368A1C001CE20B /* GradientLayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		419DFC601C3148EF000C08F8 /* star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = star.jpg; sourceTree = "<group>"; };
 		419DFC621C314AF9000C08F8 /* ScrollLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollLayerViewController.swift; sourceTree = "<group>"; };
 		419DFC641C314C1E000C08F8 /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		41C330311C368A1C001CE20B /* GradientLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientLayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				419DFC291C30FA51000C08F8 /* ViewController.swift */,
 				4110E34D1C32354B0082EDD6 /* AVPlayerViewController.swift */,
 				4110E3531C3280E40082EDD6 /* EmitterLayerViewController.swift */,
+				41C330311C368A1C001CE20B /* GradientLayerViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				419DFC651C314C1E000C08F8 /* ScrollView.swift in Sources */,
 				4110E34E1C32354B0082EDD6 /* AVPlayerViewController.swift in Sources */,
 				419DFC2A1C30FA51000C08F8 /* ViewController.swift in Sources */,
+				41C330321C368A1C001CE20B /* GradientLayerViewController.swift in Sources */,
 				419DFC581C312B7A000C08F8 /* ArrayDataSource.swift in Sources */,
 				419DFC631C314AF9000C08F8 /* ScrollLayerViewController.swift in Sources */,
 				419DFC5B1C31393B000C08F8 /* CALayerViewController.swift in Sources */,
