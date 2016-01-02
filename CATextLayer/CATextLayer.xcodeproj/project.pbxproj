@@ -10,6 +10,7 @@
 		4110E34E1C32354B0082EDD6 /* AVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110E34D1C32354B0082EDD6 /* AVPlayerViewController.swift */; };
 		4110E3521C3253FD0082EDD6 /* mp.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4110E3511C3253FD0082EDD6 /* mp.mp4 */; };
 		4110E3541C3280E40082EDD6 /* EmitterLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110E3531C3280E40082EDD6 /* EmitterLayerViewController.swift */; };
+		412354441C3786E70021DC5E /* CAReplicatorLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412354431C3786E70021DC5E /* CAReplicatorLayerViewController.swift */; };
 		419DFC281C30FA51000C08F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DFC271C30FA51000C08F8 /* AppDelegate.swift */; };
 		419DFC2A1C30FA51000C08F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DFC291C30FA51000C08F8 /* ViewController.swift */; };
 		419DFC2D1C30FA51000C08F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419DFC2B1C30FA51000C08F8 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		4110E34D1C32354B0082EDD6 /* AVPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerViewController.swift; sourceTree = "<group>"; };
 		4110E3511C3253FD0082EDD6 /* mp.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mp.mp4; sourceTree = "<group>"; };
 		4110E3531C3280E40082EDD6 /* EmitterLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmitterLayerViewController.swift; sourceTree = "<group>"; };
+		412354431C3786E70021DC5E /* CAReplicatorLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAReplicatorLayerViewController.swift; sourceTree = "<group>"; };
 		419DFC241C30FA51000C08F8 /* CATextLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATextLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		419DFC271C30FA51000C08F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		419DFC291C30FA51000C08F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				4110E34D1C32354B0082EDD6 /* AVPlayerViewController.swift */,
 				4110E3531C3280E40082EDD6 /* EmitterLayerViewController.swift */,
 				41C330311C368A1C001CE20B /* GradientLayerViewController.swift */,
+				412354431C3786E70021DC5E /* CAReplicatorLayerViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				419DFC631C314AF9000C08F8 /* ScrollLayerViewController.swift in Sources */,
 				419DFC5B1C31393B000C08F8 /* CALayerViewController.swift in Sources */,
 				419DFC281C30FA51000C08F8 /* AppDelegate.swift in Sources */,
+				412354441C3786E70021DC5E /* CAReplicatorLayerViewController.swift in Sources */,
 				4110E3541C3280E40082EDD6 /* EmitterLayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

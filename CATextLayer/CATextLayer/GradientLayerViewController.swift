@@ -19,7 +19,7 @@ class GradientLayerViewController: UIViewController {
     var endX: CGFloat?
     var colors = [AnyObject]()
     let gradientLayer = CAGradientLayer()
-    var locations : [Float] = [0, 1/6.0, 1/3.0]
+    var locations : [Float] = [1/7.0, 2/7.0, 3/7.0, 4/7.0, 5/7.0, 6/7.0, 7/7.0]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -41,7 +41,8 @@ class GradientLayerViewController: UIViewController {
             cgColorForRed(51.0, green: 221.0, blue: 0.0),
             cgColorForRed(17.0, green: 51.0, blue: 204.0),
             cgColorForRed(34.0, green: 0.0, blue: 102.0),
-            cgColorForRed(51.0, green: 0.0, blue: 68.0)]
+            cgColorForRed(51.0, green: 0.0, blue: 68.0)
+        ]
         
         gradientLayer.colors = colors
         gradientLayer.locations = locations
@@ -76,7 +77,7 @@ class GradientLayerViewController: UIViewController {
     @IBAction func closeOrOpenColor(sender: UISwitch) {
         switch (sender.tag) {
         case 1:
-            let redColor = colors[0]
+            let redColor = cgColorForRed(209.0, green: 0.0, blue: 0.0)
             if sender.on == true {
                 colors.append(redColor)
             }
@@ -84,14 +85,14 @@ class GradientLayerViewController: UIViewController {
                 colors.removeAtIndex(0)
             }
         case 2:
-            let orangeColor = colors[1]
+            let orangeColor = cgColorForRed(255.0, green: 102.0, blue: 34.0)
             if sender.on == true {
                 colors.append(orangeColor)
             }else{
                 colors.removeAtIndex(1)
             }
         case 3:
-            let yellowColor = colors[2]
+            let yellowColor = cgColorForRed(255.0, green: 218.0, blue: 33.0)
             if sender.on == true {
                 colors.append(yellowColor)
             }else{

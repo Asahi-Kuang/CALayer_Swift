@@ -26,6 +26,8 @@
 
 10. **GradientLayerViewController.swift** :颜色渐变图层(Layer)处理实现。
 
+11. **ReplicatorLayerViewController.swift** :复制图层处理实现。
+
 ###效果图:
 
 ####CALayer:
@@ -53,6 +55,11 @@
 ####GradientLayer:
 
 ![pic url](http://a3.qpic.cn/psb?/V106iJhq3r5pvo/jW6j7dDFysJqzSx1rRKyYl08QMAUT.Il0Rhof0itrtc!/b/dFsBAAAAAAAA&bo=0wFFA9MBRQMCKAw!&rf=viewer_4)
+
+####ReplicatorLayer:
+
+![pic url](http://a1.qpic.cn/psb?/V106iJhq3MTpbK/f1s412oAlPum8lmq3VpelNnry.XGSPOeZAghS2RKo48!/b/dHIAAAAAAAAA&bo=HgJJAx4CSQMCMhY!&rf=viewer_4)
+
 
 ####代码预览:
 
