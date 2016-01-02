@@ -40,7 +40,7 @@ class MainViewController: UIViewController, UITableViewDelegate {
         titleLabel.text = "CALayer_Demo"
         navigationItem.titleView = titleLabel
         
-        self.dataArray = ["CALayer", "CAScrollLayer", "CATextLayer", "AVPlayerLayer", "EmitterLayer", "GradientLayer", "CAReplicatorLayer","..."]
+        self.dataArray = ["CALayer", "CAScrollLayer", "CATextLayer", "AVPlayerLayer", "EmitterLayer", "GradientLayer", "CAReplicatorLayer", "CATiledLayer", "..."]
     }
     // MARK: --
 
@@ -71,7 +71,7 @@ class MainViewController: UIViewController, UITableViewDelegate {
         
         var pushVC: UIViewController?
         
-        if indexPath.row < 7 {
+        if indexPath.row < 8 {
         
         switch indexPath.row {
         case 0:
@@ -88,6 +88,8 @@ class MainViewController: UIViewController, UITableViewDelegate {
             pushVC = storyboard!.instantiateViewControllerWithIdentifier("GradientLayer")
         case 6:
             pushVC = storyboard!.instantiateViewControllerWithIdentifier("CAReplicatorLayer")
+        case 7:
+            pushVC = storyboard!.instantiateViewControllerWithIdentifier("CATiledLayer")
         default:
             break
         }

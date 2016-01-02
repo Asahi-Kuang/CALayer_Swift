@@ -11,6 +11,10 @@
 		4110E3521C3253FD0082EDD6 /* mp.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4110E3511C3253FD0082EDD6 /* mp.mp4 */; };
 		4110E3541C3280E40082EDD6 /* EmitterLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4110E3531C3280E40082EDD6 /* EmitterLayerViewController.swift */; };
 		412354441C3786E70021DC5E /* CAReplicatorLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412354431C3786E70021DC5E /* CAReplicatorLayerViewController.swift */; };
+		412354471C3798510021DC5E /* CATiledLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412354461C3798510021DC5E /* CATiledLayerViewController.swift */; };
+		4123544B1C379C8E0021DC5E /* TiledLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4123544A1C379C8E0021DC5E /* TiledLayerView.swift */; };
+		4123544D1C379F4C0021DC5E /* brs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4123544C1C379F4C0021DC5E /* brs.jpg */; };
+		4123544F1C37A2B50021DC5E /* windingRoad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4123544E1C37A2B50021DC5E /* windingRoad.jpg */; };
 		419DFC281C30FA51000C08F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DFC271C30FA51000C08F8 /* AppDelegate.swift */; };
 		419DFC2A1C30FA51000C08F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419DFC291C30FA51000C08F8 /* ViewController.swift */; };
 		419DFC2D1C30FA51000C08F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419DFC2B1C30FA51000C08F8 /* Main.storyboard */; };
@@ -49,6 +53,10 @@
 		4110E3511C3253FD0082EDD6 /* mp.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mp.mp4; sourceTree = "<group>"; };
 		4110E3531C3280E40082EDD6 /* EmitterLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmitterLayerViewController.swift; sourceTree = "<group>"; };
 		412354431C3786E70021DC5E /* CAReplicatorLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAReplicatorLayerViewController.swift; sourceTree = "<group>"; };
+		412354461C3798510021DC5E /* CATiledLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CATiledLayerViewController.swift; sourceTree = "<group>"; };
+		4123544A1C379C8E0021DC5E /* TiledLayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiledLayerView.swift; sourceTree = "<group>"; };
+		4123544C1C379F4C0021DC5E /* brs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brs.jpg; sourceTree = "<group>"; };
+		4123544E1C37A2B50021DC5E /* windingRoad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = windingRoad.jpg; sourceTree = "<group>"; };
 		419DFC241C30FA51000C08F8 /* CATextLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATextLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		419DFC271C30FA51000C08F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		419DFC291C30FA51000C08F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		412354451C3798400021DC5E /* TiledLayer */ = {
+			isa = PBXGroup;
+			children = (
+				412354461C3798510021DC5E /* CATiledLayerViewController.swift */,
+				4123544A1C379C8E0021DC5E /* TiledLayerView.swift */,
+			);
+			name = TiledLayer;
+			sourceTree = "<group>";
+		};
 		419DFC1B1C30FA51000C08F8 = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +141,9 @@
 				419DFC591C313922000C08F8 /* Controllers */,
 				419DFC2B1C30FA51000C08F8 /* Main.storyboard */,
 				4110E3511C3253FD0082EDD6 /* mp.mp4 */,
+				4123544C1C379F4C0021DC5E /* brs.jpg */,
 				419DFC601C3148EF000C08F8 /* star.jpg */,
+				4123544E1C37A2B50021DC5E /* windingRoad.jpg */,
 				419DFC2E1C30FA51000C08F8 /* Assets.xcassets */,
 				419DFC301C30FA51000C08F8 /* LaunchScreen.storyboard */,
 				419DFC331C30FA51000C08F8 /* Info.plist */,
@@ -153,6 +172,7 @@
 		419DFC591C313922000C08F8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				412354451C3798400021DC5E /* TiledLayer */,
 				419DFC551C312915000C08F8 /* MainViewController.swift */,
 				419DFC5A1C31393B000C08F8 /* CALayerViewController.swift */,
 				419DFC661C314C23000C08F8 /* ScrollLayer */,
@@ -278,10 +298,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4123544F1C37A2B50021DC5E /* windingRoad.jpg in Resources */,
 				4110E3521C3253FD0082EDD6 /* mp.mp4 in Resources */,
 				419DFC321C30FA51000C08F8 /* LaunchScreen.storyboard in Resources */,
 				419DFC2F1C30FA51000C08F8 /* Assets.xcassets in Resources */,
 				419DFC611C3148EF000C08F8 /* star.jpg in Resources */,
+				4123544D1C379F4C0021DC5E /* brs.jpg in Resources */,
 				419DFC2D1C30FA51000C08F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +332,7 @@
 				419DFC561C312915000C08F8 /* MainViewController.swift in Sources */,
 				419DFC651C314C1E000C08F8 /* ScrollView.swift in Sources */,
 				4110E34E1C32354B0082EDD6 /* AVPlayerViewController.swift in Sources */,
+				4123544B1C379C8E0021DC5E /* TiledLayerView.swift in Sources */,
 				419DFC2A1C30FA51000C08F8 /* ViewController.swift in Sources */,
 				41C330321C368A1C001CE20B /* GradientLayerViewController.swift in Sources */,
 				419DFC581C312B7A000C08F8 /* ArrayDataSource.swift in Sources */,
@@ -317,6 +340,7 @@
 				419DFC5B1C31393B000C08F8 /* CALayerViewController.swift in Sources */,
 				419DFC281C30FA51000C08F8 /* AppDelegate.swift in Sources */,
 				412354441C3786E70021DC5E /* CAReplicatorLayerViewController.swift in Sources */,
+				412354471C3798510021DC5E /* CATiledLayerViewController.swift in Sources */,
 				4110E3541C3280E40082EDD6 /* EmitterLayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

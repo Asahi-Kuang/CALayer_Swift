@@ -28,7 +28,13 @@
 
 11. **ReplicatorLayerViewController.swift** :复制图层处理实现。
 
+12. **TiledLayerView.swift** : 瓦片拼图图层处理实现。
+
 ###效果图:
+
+####CATiledLayer:
+
+![pic url](http://a2.qpic.cn/psb?/V106iJhq3r5pvo/jyBG.EKL38VYxhez1T*M01YP*go1U1sxHxtig3JQDAE!/b/dHMAAAAAAAAA&bo=ZAJTA2QCUwMCMhY!&rf=viewer_4)
 
 ####CALayer:
 

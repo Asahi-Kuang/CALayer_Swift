@@ -899,6 +899,55 @@
             </objects>
             <point key="canvasLocation" x="2382.5" y="1145.5"/>
         </scene>
+        <!--Tiled Layer View Controller-->
+        <scene sceneID="DMP-Eg-s89">
+            <objects>
+                <viewController storyboardIdentifier="CATiledLayer" id="DX8-QM-kbo" customClass="CATiledLayerViewController" customModule="CATextLayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zfG-al-vrb"/>
+                        <viewControllerLayoutGuide type="bottom" id="cNs-uf-aWD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KmW-Z9-woI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AcC-PI-XRS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u14-Z6-FEr" customClass="TiledLayerView" customModule="CATextLayer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="3000" height="1500"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="3000" id="B5V-zI-Wsf"/>
+                                            <constraint firstAttribute="height" constant="1500" id="CHS-E8-yJm"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="u14-Z6-FEr" secondAttribute="bottom" id="RSE-Mz-aje"/>
+                                    <constraint firstItem="u14-Z6-FEr" firstAttribute="top" secondItem="AcC-PI-XRS" secondAttribute="top" id="XTM-Ek-4M7"/>
+                                    <constraint firstAttribute="trailing" secondItem="u14-Z6-FEr" secondAttribute="trailing" id="hYV-MT-yUs"/>
+                                    <constraint firstItem="u14-Z6-FEr" firstAttribute="leading" secondItem="AcC-PI-XRS" secondAttribute="leading" id="iNa-xK-ekn"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AcC-PI-XRS" firstAttribute="top" secondItem="KmW-Z9-woI" secondAttribute="top" id="brx-cr-hmL"/>
+                            <constraint firstAttribute="trailing" secondItem="AcC-PI-XRS" secondAttribute="trailing" id="hLa-Ng-pH4"/>
+                            <constraint firstItem="AcC-PI-XRS" firstAttribute="bottom" secondItem="cNs-uf-aWD" secondAttribute="top" id="jf2-Fi-K5e"/>
+                            <constraint firstItem="AcC-PI-XRS" firstAttribute="leading" secondItem="KmW-Z9-woI" secondAttribute="leading" id="tYH-3Z-rsL"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="viewForLayer" destination="u14-Z6-FEr" id="2Tx-Ns-rWB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tzV-o7-OLo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2798.5" y="1145.5"/>
+        </scene>
         <!--CALayer_Demo-->
         <scene sceneID="nAd-jw-V6p">
             <objects>
