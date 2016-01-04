@@ -8,7 +8,7 @@
 
 import UIKit
 
-let sideLength:CGFloat = 100.0
+let sideLength:CGFloat = 300.0
 let fileName = "windingRoad"
 
 class TiledLayerView: UIView {

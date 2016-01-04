@@ -941,6 +941,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="scrollView" destination="AcC-PI-XRS" id="qpQ-AG-Hwp"/>
                         <outlet property="viewForLayer" destination="u14-Z6-FEr" id="2Tx-Ns-rWB"/>
                     </connections>
                 </viewController>

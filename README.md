@@ -34,7 +34,7 @@
 
 ####CATiledLayer:
 
-![pic url](http://a2.qpic.cn/psb?/V106iJhq3r5pvo/jyBG.EKL38VYxhez1T*M01YP*go1U1sxHxtig3JQDAE!/b/dHMAAAAAAAAA&bo=ZAJTA2QCUwMCMhY!&rf=viewer_4)
+![pic url](http://a2.qpic.cn/psb?/V106iJhq3r5pvo/qZ8EA32xkRR*1D8YfT7YYM1hOPnig*xtkf90ap4.ADM!/b/dF0BAAAAAAAA&bo=0wE5A9MBOQMCMhY!&rf=viewer_4)
 
 ####CALayer:
 

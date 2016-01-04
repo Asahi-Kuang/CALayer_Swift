@@ -10,6 +10,7 @@ import UIKit
 
 class CATiledLayerViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
     
     @IBOutlet weak var viewForLayer: TiledLayerView!
     
@@ -17,7 +18,8 @@ class CATiledLayerViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+        scrollView.bounces = false
+        scrollView.decelerationRate = 0.5
     }
 
     override func didReceiveMemoryWarning() {
